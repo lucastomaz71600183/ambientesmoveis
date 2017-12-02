@@ -5,6 +5,10 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
+import retrofit2.Call;
+import retrofit2.http.Body;
+import retrofit2.http.POST;
+
 public class MemberList {
 
     public void setList(List<Member> list) {
@@ -15,5 +19,4 @@ public class MemberList {
     private List<Member> list;
 
     public List<Member> getList() { return list; }
-
 }

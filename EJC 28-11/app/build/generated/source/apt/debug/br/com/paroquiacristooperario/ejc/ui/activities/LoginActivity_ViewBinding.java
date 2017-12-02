@@ -5,6 +5,7 @@ import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import br.com.paroquiacristooperario.ejc.R;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
@@ -36,6 +37,8 @@ public class LoginActivity_ViewBinding implements Unbinder {
         target.login();
       }
     });
+    target.txtEmail = Utils.findRequiredViewAsType(source, R.id.email, "field 'txtEmail'", TextView.class);
+    target.txtSenha = Utils.findRequiredViewAsType(source, R.id.senha, "field 'txtSenha'", TextView.class);
   }
 
   @Override
@@ -46,6 +49,8 @@ public class LoginActivity_ViewBinding implements Unbinder {
     this.target = null;
 
     target.btnLogin = null;
+    target.txtEmail = null;
+    target.txtSenha = null;
 
     view2131230751.setOnClickListener(null);
     view2131230751 = null;

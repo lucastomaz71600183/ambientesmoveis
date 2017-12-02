@@ -1,6 +1,8 @@
 package br.com.paroquiacristooperario.ejc.model;
 
-public class Member {
+import java.io.Serializable;
+
+public class Member implements Serializable{
     public int getId() {
         return id;
     }
@@ -73,4 +75,14 @@ public class Member {
     private String data_nascimento;
     private int edicao;
     private String email;
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    private String senha;
 }
