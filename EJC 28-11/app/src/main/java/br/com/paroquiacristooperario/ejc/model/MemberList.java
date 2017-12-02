@@ -11,7 +11,7 @@ public class MemberList {
         this.list = list;
     }
 
-    @SerializedName("lista")
+    @SerializedName("result")
     private List<Member> list;
 
     public List<Member> getList() { return list; }

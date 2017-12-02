@@ -1,8 +1,11 @@
 package br.com.paroquiacristooperario.ejc.ui.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Debug;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -12,30 +15,70 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.Toast;
+
+import java.io.Console;
+import java.util.ArrayList;
+import java.util.List;
 
 import br.com.paroquiacristooperario.ejc.R;
+import br.com.paroquiacristooperario.ejc.app.EJCApplication;
+import br.com.paroquiacristooperario.ejc.model.Member;
+import br.com.paroquiacristooperario.ejc.model.MemberList;
+import br.com.paroquiacristooperario.ejc.model.News;
+import br.com.paroquiacristooperario.ejc.model.NewsList;
+import br.com.paroquiacristooperario.ejc.services.RestService;
+import br.com.paroquiacristooperario.ejc.services.ServiceMember;
+import br.com.paroquiacristooperario.ejc.services.ServiceNews;
+import br.com.paroquiacristooperario.ejc.ui.adapter.AdapterMembers;
+import br.com.paroquiacristooperario.ejc.ui.adapter.AdapterNews;
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+
+    private List<News> newsList;
+
+
+    @BindView(R.id.listview)
+    ListView list;
+
+
+    NavigationView navigationView = null;
+    Toolbar toolbar = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        ButterKnife.bind(this);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.setDrawerListener(toggle);
+        toggle.syncState();
 
-
-//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-//                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-//        drawer.setDrawerListener(toggle);
-//        toggle.syncState();
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
+        getNews();
     }
+
+
 
     @Override
     public void onBackPressed() {
@@ -46,27 +89,34 @@ public class HomeActivity extends AppCompatActivity
             super.onBackPressed();
         }
     }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.home, menu);
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        // Handle action bar item clicks here. The action bar will
+//        // automatically handle clicks on the Home/Up button, so long
+//        // as you specify a parent activity in AndroidManifest.xml.
+//        int id = item.getItemId();
+//
+//        //noinspection SimplifiableIfStatement
+//        if (id == R.id.action_settings) {
+//            return true;
+//        }
+//
+//        return super.onOptionsItemSelected(item);
+//    }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.home, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+    protected void onResume() {
+        super.onResume();
+        for (int i = 0; i < navigationView.getMenu().size(); i++) {
+            navigationView.getMenu().getItem(i).setChecked(false);
         }
-
-        return super.onOptionsItemSelected(item);
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
@@ -75,22 +125,52 @@ public class HomeActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
 
-        } else if (id == R.id.nav_slideshow) {
 
-        } else if (id == R.id.nav_manage) {
+        if (id == R.id.profile) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.members) {
+            Intent i = new Intent(HomeActivity.this, MembersActivity.class);
 
-        } else if (id == R.id.nav_send) {
+            startActivity(i);
+
+
+        } else if (id == R.id.help) {
 
         }
 
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
+        //navigationView.getMenu().getItem(0).setChecked(false);
         return true;
+
+    }
+
+
+    public void getNews() {
+
+        RestService r = EJCApplication.getInstance().getRestService();
+
+        ServiceNews s = r.getService(ServiceNews.class);
+
+        Call<NewsList> c = s.getNews();
+
+        c.enqueue(new Callback<NewsList>() {
+            @Override
+            public void onResponse(Call<NewsList> call, Response<NewsList> response) {
+                if(response.code() == 200) {
+                    newsList = response.body().getList();
+
+                    AdapterNews adapter = new AdapterNews(newsList, HomeActivity.this);
+                    list.setAdapter(adapter);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<NewsList> call, Throwable t) {
+                Log.d("ERRO",call.toString());
+            }
+        });
     }
 }

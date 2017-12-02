@@ -25,13 +25,13 @@
             android:label="Login"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.activities.MembersActivity"
-            android:label="Membros"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
             android:name=".ui.activities.HomeActivity"
             android:label="Notícias"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".ui.activities.MembersActivity"
+            android:label="Participantes"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

@@ -14,7 +14,8 @@ public class EJCApplication extends Application{
     public void onCreate() {
         super.onCreate();
         instance = this;
-        service = new RestService("http://apiteste.fourtime.com/api/");
+//        service = new RestService("http://apiteste.fourtime.com/api/");
+        service = new RestService("http://138.197.77.154:3005/");
     }
 
     public static EJCApplication getInstance() {
