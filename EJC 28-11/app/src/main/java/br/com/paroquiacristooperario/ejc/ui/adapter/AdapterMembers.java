@@ -57,7 +57,7 @@ public class AdapterMembers extends BaseAdapter{
 
         nome.setText(m.getNome());
         sobrenome.setText(m.getSobrenome());
-        edicao.setText(String.valueOf(m.getEdicao()));
+        edicao.setText(String.valueOf(m.getEdicao()) + "º");
         data_nascimento.setText(m.getData_nascimento());
 
         return view;

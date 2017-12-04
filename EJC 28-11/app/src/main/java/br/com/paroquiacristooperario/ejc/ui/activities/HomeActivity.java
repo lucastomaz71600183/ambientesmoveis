@@ -16,9 +16,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import com.bumptech.glide.Glide;
+
+import org.w3c.dom.Text;
 
 import java.io.Console;
 import java.util.ArrayList;
@@ -47,10 +53,8 @@ public class HomeActivity extends AppCompatActivity
 
     private List<News> newsList;
 
-
     @BindView(R.id.listview)
     ListView list;
-
 
     NavigationView navigationView = null;
     Toolbar toolbar = null;
@@ -74,6 +78,21 @@ public class HomeActivity extends AppCompatActivity
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        View header = navigationView.getHeaderView(0);
+
+        TextView user_lastname = (TextView) header.findViewById(R.id.user_lastname);
+        TextView user_firstname = (TextView) header.findViewById(R.id.user_name);
+        ImageView user_picture = (ImageView) header.findViewById(R.id.user_picture);
+
+        user_firstname.setText(EJCApplication.membroAtivo.getNome());
+        user_lastname.setText(EJCApplication.membroAtivo.getSobrenome());
+
+
+        if(EJCApplication.membroAtivo.getFoto() != null) {
+            Glide.with(header).load(EJCApplication.membroAtivo.getFoto()).into(user_picture);
+        } else {
+            Glide.with(header).load(R.drawable.ic_user_pink).into(user_picture);
+        }
 
         getNews();
     }
@@ -128,15 +147,22 @@ public class HomeActivity extends AppCompatActivity
 
 
         if (id == R.id.profile) {
+            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+
+            startActivity(i);
 
         } else if (id == R.id.members) {
             Intent i = new Intent(HomeActivity.this, MembersActivity.class);
 
             startActivity(i);
-
-
         } else if (id == R.id.help) {
 
+        } else if (id == R.id.logout) {
+            Intent i = new Intent(HomeActivity.this, LoginActivity.class);
+
+            startActivity(i);
+
+            finish();
         }
 
 

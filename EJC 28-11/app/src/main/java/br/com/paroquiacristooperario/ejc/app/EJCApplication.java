@@ -2,11 +2,14 @@ package br.com.paroquiacristooperario.ejc.app;
 
 import android.app.Application;
 
+import br.com.paroquiacristooperario.ejc.model.Member;
 import br.com.paroquiacristooperario.ejc.services.RestService;
 
 public class EJCApplication extends Application{
 
     private static EJCApplication instance;
+
+    public static Member membroAtivo;
 
     private RestService service;
 

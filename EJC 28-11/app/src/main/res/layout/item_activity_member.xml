@@ -7,6 +7,8 @@
     tools:context="br.com.paroquiacristooperario.ejc.ui.activities.MembersActivity">
 
     <LinearLayout
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -41,6 +43,17 @@
                         android:textColor="@android:color/white"
                         android:textStyle="bold"
                         android:fontFamily="casual"/>
+                    <TextView
+                        android:layout_below="@+id/edicao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textSize="18dp"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:fontFamily="casual"
+                        android:layout_marginTop="-22dp"
+                        android:text="EJC"/>
                 </RelativeLayout>
 
                 <LinearLayout

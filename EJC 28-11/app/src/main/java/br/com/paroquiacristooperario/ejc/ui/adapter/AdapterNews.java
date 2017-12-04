@@ -7,7 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -54,7 +56,14 @@ public class AdapterNews extends BaseAdapter{
         TextView titulo = (TextView) view.findViewById(R.id.titulo);
         TextView descricao = (TextView) view.findViewById(R.id.descricao);
         ImageView header = (ImageView) view.findViewById(R.id.header_img);
+        FrameLayout informacoes = (FrameLayout) view.findViewById(R.id.informacoes);
 
+
+        if(n.getImagem() == null) {
+            informacoes.setVisibility(View.GONE);
+        } else {
+            informacoes.setVisibility(View.VISIBLE);
+        }
 
         titulo.setText(n.getTitulo());
         descricao.setText(n.getDescricao());

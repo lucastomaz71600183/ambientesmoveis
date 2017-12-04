@@ -1,4 +1,4 @@
-#Sat Dec 02 21:45:42 BRST 2017
+#Sun Dec 03 10:57:25 BRST 2017
 base.0=C\:\\Users\\lucas\\Desktop\\AMBMOVEIS\\ambientesmoveis\\EJC 28-11\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.0=classes.dex
 renamed.0=classes.dex

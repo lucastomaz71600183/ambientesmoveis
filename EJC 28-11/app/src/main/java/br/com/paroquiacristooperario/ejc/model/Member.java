@@ -1,5 +1,7 @@
 package br.com.paroquiacristooperario.ejc.model;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.io.Serializable;
 
 public class Member implements Serializable{
@@ -74,6 +76,16 @@ public class Member implements Serializable{
     private String celular;
     private String data_nascimento;
     private int edicao;
+    private String foto;
+
+    public String getFoto() {
+        return foto;
+    }
+
+    public void setFoto(String foto) {
+        this.foto = foto;
+    }
+
     private String email;
 
     public String getSenha() {
@@ -85,4 +97,15 @@ public class Member implements Serializable{
     }
 
     private String senha;
+
+    @SerializedName("encontrista")
+    private Member usuario_logado;
+
+    public Member getUsuario_logado() {
+        return usuario_logado;
+    }
+
+    public void setUsuario_logado(Member usuario_logado) {
+        this.usuario_logado = usuario_logado;
+    }
 }

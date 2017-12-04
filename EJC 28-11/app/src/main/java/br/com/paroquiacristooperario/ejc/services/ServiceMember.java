@@ -12,5 +12,9 @@ public interface ServiceMember {
     Call<MemberList> getMembers();
 
     @POST("encontristas")
+    Call<Member> cadastrar(@Body Member member);
+
+    @POST("auth/login")
     Call<Member> autenticar(@Body Member member);
+
 }

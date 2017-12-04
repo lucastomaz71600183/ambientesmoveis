@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.paroquiacristooperario.ejc.ui.activities.SignUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="15dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nome"
+                        android:textColor="@color/colorPrimary"/>
+                    <EditText
+                        android:id="@+id/cad_nome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lucas"/>
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sobrenome"
+                    android:textColor="@color/colorPrimary"/>
+                <EditText
+                    android:id="@+id/cad_sobrenome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tomaz Resende Miranda"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Telefone"
+                    android:textColor="@color/colorPrimary"/>
+                <EditText
+                    android:id="@+id/cad_telefone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="34944307"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Celular"
+                    android:textColor="@color/colorPrimary"/>
+                <EditText
+                    android:id="@+id/cad_celular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="994630329"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data de Nascimento"
+                    android:textColor="@color/colorPrimary"/>
+
+                <EditText
+                    android:id="@+id/cad_data_nascimento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="02/12/1996"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Edição"
+                    android:textColor="@color/colorPrimary"/>
+
+                <EditText
+                    android:id="@+id/cad_edicao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textColor="@color/colorPrimary"/>
+
+                <EditText
+                    android:id="@+id/cad_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11"
+                    android:inputType="textEmailAddress"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Senha"
+                    android:textColor="@color/colorPrimary"/>
+
+                <EditText
+                    android:id="@+id/cad_senha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp">
+                <Button
+                    android:id="@+id/btn_cadastrar_final"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cadastrar"
+                    android:background="@color/colorAccent"
+                    android:textColor="@color/icons"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

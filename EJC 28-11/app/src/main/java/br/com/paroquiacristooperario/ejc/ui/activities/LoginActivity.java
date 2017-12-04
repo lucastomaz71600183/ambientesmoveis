@@ -7,6 +7,13 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.facebook.CallbackManager;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.login.LoginManager;
+import com.facebook.login.LoginResult;
+import com.facebook.login.widget.LoginButton;
+
 import org.w3c.dom.Text;
 
 import br.com.paroquiacristooperario.ejc.R;
@@ -23,14 +30,22 @@ import retrofit2.Response;
 
 public class LoginActivity extends AppCompatActivity {
 
+    private Member m;
+
     @BindView(R.id.btnLogin)
     Button btnLogin;
+
+    @BindView(R.id.btnCadastrar)
+    Button btnCadastrar;
 
     @BindView(R.id.email)
     TextView txtEmail;
 
     @BindView(R.id.senha)
     TextView txtSenha;
+
+//    @BindView(R.id.login_button)
+//    LoginButton loginButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +54,47 @@ public class LoginActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
+        txtEmail.setText("lucastomazrm@gmail.com");
+        txtSenha.setText("oixd");
+
+//        txtEmail.setText("tatisantcar@outlook.com");
+//        txtSenha.setText("tatiane");
+
+        //loginButton.setReadPermissions("email");
     }
+
+
+//    @OnClick(R.id.login_button)
+//    public void facebook_login() {
+//
+//        CallbackManager callbackManager = CallbackManager.Factory.create();
+//
+//        LoginManager.getInstance().registerCallback(callbackManager,
+//                new FacebookCallback<LoginResult>() {
+//                    @Override
+//                    public void onSuccess(LoginResult loginResult) {
+//                        Toast.makeText(LoginActivity.this, "Sucesso." + loginResult, Toast.LENGTH_SHORT).show();
+//                        Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+//                        startActivity(i);
+//
+//                        finish();
+//                    }
+//
+//                    @Override
+//                    public void onCancel() {
+//                        Toast.makeText(LoginActivity.this, "Cancelado.", Toast.LENGTH_SHORT).show();
+//                    }
+//
+//                    @Override
+//                    public void onError(FacebookException exception) {
+//                        Toast.makeText(LoginActivity.this, "Erro: " + exception.getMessage(), Toast.LENGTH_SHORT).show();
+//                    }
+//                });
+//        Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+//        startActivity(i);
+//
+//        finish();
+//    }
 
     @OnClick(R.id.btnLogin)
     public void login() {
@@ -47,7 +102,7 @@ public class LoginActivity extends AppCompatActivity {
         RestService r = EJCApplication.getInstance().getRestService();
         ServiceMember su = r.getService(ServiceMember.class);
 
-        Member m = new Member();
+        m = new Member();
 
         m.setEmail(txtEmail.getText().toString());
         m.setSenha(txtSenha.getText().toString());
@@ -55,10 +110,15 @@ public class LoginActivity extends AppCompatActivity {
         Call<Member> call = su.autenticar(m);
 
         call.enqueue(new Callback<Member>() {
+
             @Override
             public void onResponse(Call<Member> call, Response<Member> response) {
                 if (response.code() == 200) {
+
+                    EJCApplication.membroAtivo = response.body().getUsuario_logado();
+
                     Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+
                     startActivity(i);
 
                     finish();
@@ -73,5 +133,12 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    @OnClick(R.id.btnCadastrar)
+    public void cadastrar() {
+        Intent i = new Intent(LoginActivity.this, SignUpActivity.class);
+
+        startActivity(i);
     }
 }
