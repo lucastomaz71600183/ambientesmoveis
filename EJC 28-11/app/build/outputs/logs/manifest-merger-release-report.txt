@@ -1,0 +1,250 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:2:1-65:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cb33bb521f302f828017e4fec285f788\AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-login-4.28.0.aar\b41f842d6267e1b220b896cb012bb6b8\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-common-4.28.0.aar\621669b44f2ab0196a21c9644335f816\AndroidManifest.xml:21:1-36:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\3cf47cc9eb5866989a1de37a8f119b65\AndroidManifest.xml:17:1-31:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\1cfc6f4220b9bf57c7081a847a519213\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\a4a2998476babe53f9e26559f7744e09\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\1d77e052bdac2f68cd0c6efb45668b3c\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9c9b163c91238bad9e97be57a0d4ae3c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\c2379720c3b4bccd0c9387baf8e2d922\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\028124f97527761c63a05457404e3216\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\4229223f07d15d9dbaa17a66588a3418\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\22e5ff697547d02d0e5bbc655554d4ca\AndroidManifest.xml:17:1-28:12
+MERGED from [com.facebook.android:facebook-core:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.28.0.aar\a4e2c17ae89f7531335533c4f87fb010\AndroidManifest.xml:21:1-45:12
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\e4711b544842042d46cd6874206289da\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\f2a85864730b3d35246f3a6618f737c3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e9b0a31801dd7f083ec7027bf3a61262\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\78831bee6168894bd493dd468e5ae23a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\9d8e40aac5b0f1bc7862cc4f894a924a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\286739764065dee0496869c551bdcbff\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:2:1-65:12
+	package
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:2:1-65:12
+		INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:2:1-65:12
+		INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:7:5-63:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cb33bb521f302f828017e4fec285f788\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cb33bb521f302f828017e4fec285f788\AndroidManifest.xml:29:5-20
+MERGED from [com.facebook.android:facebook-login:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-login-4.28.0.aar\b41f842d6267e1b220b896cb012bb6b8\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-login-4.28.0.aar\b41f842d6267e1b220b896cb012bb6b8\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-common-4.28.0.aar\621669b44f2ab0196a21c9644335f816\AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-common-4.28.0.aar\621669b44f2ab0196a21c9644335f816\AndroidManifest.xml:28:5-34:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\3cf47cc9eb5866989a1de37a8f119b65\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\3cf47cc9eb5866989a1de37a8f119b65\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\a4a2998476babe53f9e26559f7744e09\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\a4a2998476babe53f9e26559f7744e09\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9c9b163c91238bad9e97be57a0d4ae3c\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9c9b163c91238bad9e97be57a0d4ae3c\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\c2379720c3b4bccd0c9387baf8e2d922\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\c2379720c3b4bccd0c9387baf8e2d922\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\028124f97527761c63a05457404e3216\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\028124f97527761c63a05457404e3216\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\4229223f07d15d9dbaa17a66588a3418\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\4229223f07d15d9dbaa17a66588a3418\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\22e5ff697547d02d0e5bbc655554d4ca\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\22e5ff697547d02d0e5bbc655554d4ca\AndroidManifest.xml:26:5-20
+MERGED from [com.facebook.android:facebook-core:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.28.0.aar\a4e2c17ae89f7531335533c4f87fb010\AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:facebook-core:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.28.0.aar\a4e2c17ae89f7531335533c4f87fb010\AndroidManifest.xml:28:5-43:19
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\e4711b544842042d46cd6874206289da\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\e4711b544842042d46cd6874206289da\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\f2a85864730b3d35246f3a6618f737c3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\f2a85864730b3d35246f3a6618f737c3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e9b0a31801dd7f083ec7027bf3a61262\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e9b0a31801dd7f083ec7027bf3a61262\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\78831bee6168894bd493dd468e5ae23a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\78831bee6168894bd493dd468e5ae23a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\9d8e40aac5b0f1bc7862cc4f894a924a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\9d8e40aac5b0f1bc7862cc4f894a924a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\286739764065dee0496869c551bdcbff\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\286739764065dee0496869c551bdcbff\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:13:9-40
+	android:name
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:8:9-43
+activity#br.com.paroquiacristooperario.ejc.ui.activities.SplashActivity
+ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:14:9-22:20
+	android:theme
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:16:13-56
+	android:name
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:15:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:20:27-74
+activity#br.com.paroquiacristooperario.ejc.ui.activities.LoginActivity
+ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:23:9-26:59
+	android:label
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:25:13-34
+	android:theme
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:24:13-56
+activity#br.com.paroquiacristooperario.ejc.ui.activities.HomeActivity
+ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:27:9-30:59
+	android:label
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:28:13-55
+activity#br.com.paroquiacristooperario.ejc.ui.activities.MembersActivity
+ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:31:9-34:59
+	android:label
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:33:13-42
+	android:theme
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:34:13-56
+	android:name
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:32:13-58
+activity#br.com.paroquiacristooperario.ejc.ui.activities.SignUpActivity
+ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:35:9-37:41
+	android:label
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:37:13-38
+	android:name
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:36:13-57
+activity#br.com.paroquiacristooperario.ejc.ui.activities.ProfileActivity
+ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:39:9-40:37
+	android:label
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:40:13-35
+	android:name
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml:39:19-64
+uses-sdk
+INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cb33bb521f302f828017e4fec285f788\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cb33bb521f302f828017e4fec285f788\AndroidManifest.xml:21:5-23:62
+MERGED from [com.facebook.android:facebook-login:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-login-4.28.0.aar\b41f842d6267e1b220b896cb012bb6b8\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-login-4.28.0.aar\b41f842d6267e1b220b896cb012bb6b8\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-common-4.28.0.aar\621669b44f2ab0196a21c9644335f816\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-common-4.28.0.aar\621669b44f2ab0196a21c9644335f816\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\3cf47cc9eb5866989a1de37a8f119b65\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\3cf47cc9eb5866989a1de37a8f119b65\AndroidManifest.xml:21:5-23:78
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\1cfc6f4220b9bf57c7081a847a519213\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\1cfc6f4220b9bf57c7081a847a519213\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\a4a2998476babe53f9e26559f7744e09\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\a4a2998476babe53f9e26559f7744e09\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\1d77e052bdac2f68cd0c6efb45668b3c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\1d77e052bdac2f68cd0c6efb45668b3c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9c9b163c91238bad9e97be57a0d4ae3c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9c9b163c91238bad9e97be57a0d4ae3c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\c2379720c3b4bccd0c9387baf8e2d922\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\c2379720c3b4bccd0c9387baf8e2d922\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\028124f97527761c63a05457404e3216\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\028124f97527761c63a05457404e3216\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\4229223f07d15d9dbaa17a66588a3418\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\4229223f07d15d9dbaa17a66588a3418\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\22e5ff697547d02d0e5bbc655554d4ca\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\22e5ff697547d02d0e5bbc655554d4ca\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:facebook-core:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.28.0.aar\a4e2c17ae89f7531335533c4f87fb010\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.28.0.aar\a4e2c17ae89f7531335533c4f87fb010\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\e4711b544842042d46cd6874206289da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\e4711b544842042d46cd6874206289da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\f2a85864730b3d35246f3a6618f737c3\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\f2a85864730b3d35246f3a6618f737c3\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e9b0a31801dd7f083ec7027bf3a61262\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e9b0a31801dd7f083ec7027bf3a61262\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\78831bee6168894bd493dd468e5ae23a\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\78831bee6168894bd493dd468e5ae23a\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\9d8e40aac5b0f1bc7862cc4f894a924a\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\9d8e40aac5b0f1bc7862cc4f894a924a\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\286739764065dee0496869c551bdcbff\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\286739764065dee0496869c551bdcbff\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cb33bb521f302f828017e4fec285f788\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lucas\Desktop\AMBMOVEIS\ambientesmoveis\EJC 28-11\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cb33bb521f302f828017e4fec285f788\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\3cf47cc9eb5866989a1de37a8f119b65\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\3cf47cc9eb5866989a1de37a8f119b65\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\a4a2998476babe53f9e26559f7744e09\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\a4a2998476babe53f9e26559f7744e09\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\1d77e052bdac2f68cd0c6efb45668b3c\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\1d77e052bdac2f68cd0c6efb45668b3c\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\c2379720c3b4bccd0c9387baf8e2d922\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\c2379720c3b4bccd0c9387baf8e2d922\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\4229223f07d15d9dbaa17a66588a3418\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\4229223f07d15d9dbaa17a66588a3418\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\22e5ff697547d02d0e5bbc655554d4ca\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\22e5ff697547d02d0e5bbc655554d4ca\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\e4711b544842042d46cd6874206289da\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\e4711b544842042d46cd6874206289da\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\f2a85864730b3d35246f3a6618f737c3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\f2a85864730b3d35246f3a6618f737c3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e9b0a31801dd7f083ec7027bf3a61262\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e9b0a31801dd7f083ec7027bf3a61262\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\78831bee6168894bd493dd468e5ae23a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\78831bee6168894bd493dd468e5ae23a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\9d8e40aac5b0f1bc7862cc4f894a924a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\9d8e40aac5b0f1bc7862cc4f894a924a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\286739764065dee0496869c551bdcbff\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\286739764065dee0496869c551bdcbff\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cb33bb521f302f828017e4fec285f788\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cb33bb521f302f828017e4fec285f788\AndroidManifest.xml:26:9-47
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-common-4.28.0.aar\621669b44f2ab0196a21c9644335f816\AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-common-4.28.0.aar\621669b44f2ab0196a21c9644335f816\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-common-4.28.0.aar\621669b44f2ab0196a21c9644335f816\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-common-4.28.0.aar\621669b44f2ab0196a21c9644335f816\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-common-4.28.0.aar\621669b44f2ab0196a21c9644335f816\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-common-4.28.0.aar\621669b44f2ab0196a21c9644335f816\AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.28.0.aar\a4e2c17ae89f7531335533c4f87fb010\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.28.0.aar\a4e2c17ae89f7531335533c4f87fb010\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.28.0.aar\a4e2c17ae89f7531335533c4f87fb010\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.28.0] C:\Users\lucas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.28.0.aar\a4e2c17ae89f7531335533c4f87fb010\AndroidManifest.xml:40:13-70
